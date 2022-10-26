@@ -1,0 +1,194 @@
+body{
+    background-color: whitesmoke;
+}
+
+#navbar{
+    background-color: rgb(164, 160, 160);
+    height: 60px;
+}
+
+.head{
+    margin-left: 500px;
+}
+
+.buttons{
+    margin-left: 730px;
+    margin-top: 220px;
+    cursor:pointer;
+    color: whitesmoke;
+}
+
+#backBtn:hover{
+    font-size: large;
+}
+
+#forwardBtn:hover{
+    font-size: large;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 200px;
+}
+
+h1{
+    margin-left: 60px;
+    font-family: cursive;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.job{
+    margin-left: 150px;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+}
+
+.footer{
+    list-style-type: none;
+     display: flex;
+}
+
+footer{
+    background-color: rgb(164, 160, 160);
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.about, .work, .contact{
+    margin-top: 25px;
+    margin-left: 100px;
+    padding-left: 50px;
+    color: whitesmoke;
+    border: 1px transparent;
+    font-size: 20px;
+
+}
+
+.c-link{
+    color: whitesmoke;
+
+}
+
+.about{
+    padding-left: 700px;
+}
+
+.home{
+    margin-top: 25px;
+    color: whitesmoke;
+    border: 1px transparent;
+    font-size: 20px;
+}
+
+.home:hover{
+    font-size: 15px;  
+}
+
+.about:hover{
+    font-size: 15px;
+}
+
+.work:hover{
+    font-size: 15px;
+}
+
+.contact:hover{
+    font-size: 15px;
+}
+
+.c-link:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.project{
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+
+}
+.project:hover{
+    color: rgb(164, 160, 160);
+    text-decoration: none;
+}
+#project1{
+background-image: url('./images/6E3BFAF0-DBD0-4FC2-985A-C7DA8C612DE7_1_201_a.jpeg');
+background-size: 700px 400px;
+}
+
+#project2{
+background-image: url('./images/F1C76F23-ED24-4BCE-B31F-D9B8368570C2_1_201_a.jpeg');
+background-size: 700px 400px;
+}
+
+#project3{
+background-image: url('./images/A7C9E0D1-339C-4CA1-9D5E-4B35531C1125_1_201_a.jpeg');
+background-size: 700px 400px;
+}
+
+#project4{
+background-image: url('./images/D9E8143A-668D-48E1-9B2E-4202E0718713_1_201_a.jpeg');
+background-size: 700px 400px;
+}
+
+#project5{
+background-size: 700px 400px;
+
+}
+
+#project6{
+
+background-size: 700px 400px;
+}
+
+#project7{
+background-size: 700px 400px;
+
+}
+
+#project8{
+background-size: 700px 400px;
+
+}
+
+#project9{
+background-size: 700px 400px;
+
+}
+
+#projct10{
+background-size: 700px 400px;
+
+}
+
+.link{
+    padding: 40px;
+    margin-left: 200px;
+    color: whitesmoke;
+}
+
+.link:hover{
+    color: whitesmoke;
+
+}

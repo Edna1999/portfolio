@@ -7,16 +7,16 @@ const contact = document.querySelector('.contact');
 
 projects.addEventListener('click', function(){
 
-    window.location.href = '../pages/projects.html';
+    window.location.href = 'https://edna1999.github.io/portfolio/pages/projects';
 
 });
 
 about.addEventListener('click', function(){
 
-   window.location.href = '../pages/about.html';
+   window.location.href = 'https://edna1999.github.io/portfolio/pages/about';
 });
 
 home.addEventListener('click', function(){
 
-   window.location.href = '../index.html';
+   window.location.href = 'https://edna1999.github.io/portfolio/';
 });

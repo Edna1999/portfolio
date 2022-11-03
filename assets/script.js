@@ -1,22 +1,45 @@
-const next = document.getElementById('forwardBtn');
-const back = document.getElementById('backBtn');
-const home = document.querySelector('.home');
-const about = document.querySelector('.about');
-const projects = document.querySelector('.work');
-const contact = document.querySelector('.contact');
 
-projects.addEventListener('click', function(){
+let collapseOne = document.getElementById('collapseOne');
+let collapseTwo = document.getElementById('collapseTwo');
 
-    window.location.href = 'https://edna1999.github.io/portfolio/pages/projects/';
+
+let education = document.getElementById('ed');
+let skill = document.getElementById('skills');
+
+
+
+let action = 0;
+
+education.addEventListener('click', function(){
+
+  action++
+  if(action % 2){
+
+    collapseOne.setAttribute('class', 'collapse');
+  } else {
+
+    collapseOne.setAttribute('class', 'collapse show');
+  }
 
 });
 
-about.addEventListener('click', function(){
+skill.addEventListener('click', function(){
 
-   window.location.href = 'https://edna1999.github.io/portfolio/pages/about/';
+  action++
+  if(action % 2){
+
+    collapseTwo.setAttribute('class', 'collapse');
+
+  } else {
+
+    collapseTwo.setAttribute('class', 'collapse show');
+    
+  }
+
 });
 
-home.addEventListener('click', function(){
 
-   window.location.href = 'https://edna1999.github.io/portfolio/';
-});
+
+
+
+

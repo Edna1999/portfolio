@@ -26,7 +26,7 @@ body{
     font-size: large;
 }
 
-img{
+#image{
     width: 400px;
     height: 400px;
     margin-top: 10px;
@@ -58,16 +58,18 @@ h1{
 }
 
 footer{
+    position: fixed;
     background-color: rgb(164, 160, 160);
     padding: 20px;
-    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .list{
     list-style-type: none;
 }
 
-.about, .work, .contact{
+.about, .work{
     margin-top: 25px;
     margin-left: 100px;
     padding-left: 50px;
@@ -77,13 +79,8 @@ footer{
 
 }
 
-.c-link{
-    color: whitesmoke;
-
-}
-
 .about{
-    padding-left: 700px;
+    padding-left: 900px;
 }
 
 .home{
@@ -94,32 +91,32 @@ footer{
 }
 
 .home:hover{
-    font-size: 15px;  
+    text-decoration: none;
+    color: black;
+
+
 }
 
 .about:hover{
-    font-size: 15px;
+    text-decoration: none;
+    color: black;
+
+
 }
 
 .work:hover{
-    font-size: 15px;
-}
-
-.contact:hover{
-    font-size: 15px;
-}
-
-.c-link:hover{
-    color: whitesmoke;
     text-decoration: none;
+    color: black;
+
+
 }
 
 .project{
-    border: 3px solid black;
+    /* border: 1px solid black; */
     padding: 20px;
     border-radius: 10px;
-    width: 700px;
-    height: 400px;
+    /* width: 700px; */
+    /* height: 400px; */
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -128,58 +125,10 @@ footer{
     color: black;
 
 }
+
 .project:hover{
-    color: rgb(164, 160, 160);
+    box-shadow: 3px 3px 3px 3px rgba(36, 36, 36, 0.462);
     text-decoration: none;
-}
-#project1{
-background-image: url('./images/6E3BFAF0-DBD0-4FC2-985A-C7DA8C612DE7_1_201_a.jpeg');
-background-size: 700px 400px;
-}
-
-#project2{
-background-image: url('./images/F1C76F23-ED24-4BCE-B31F-D9B8368570C2_1_201_a.jpeg');
-background-size: 700px 400px;
-}
-
-#project3{
-background-image: url('./images/A7C9E0D1-339C-4CA1-9D5E-4B35531C1125_1_201_a.jpeg');
-background-size: 700px 400px;
-}
-
-#project4{
-background-image: url('./images/D9E8143A-668D-48E1-9B2E-4202E0718713_1_201_a.jpeg');
-background-size: 700px 400px;
-}
-
-#project5{
-background-size: 700px 400px;
-
-}
-
-#project6{
-
-background-size: 700px 400px;
-}
-
-#project7{
-background-size: 700px 400px;
-
-}
-
-#project8{
-background-size: 700px 400px;
-
-}
-
-#project9{
-background-size: 700px 400px;
-
-}
-
-#projct10{
-background-size: 700px 400px;
-
 }
 
 .link{
@@ -192,3 +141,42 @@ background-size: 700px 400px;
     color: whitesmoke;
 
 }
+
+#osu{
+    width: 1000px;
+}
+
+#me{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+
+#head{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+#generator, #planner, #quiz, #team-board, #dashboard, #ph1, #ph2, #ph3, #ph4, #ph5, #ph6{
+    color: black;
+}
+
+.card{
+    border: 1.5px solid rgb(64, 64, 64);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(73, 72, 72, 0.605);
+}
+.card-title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+}
+.card-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+

@@ -11,50 +11,55 @@
 </head>
 <body>
 
-     <div id="navbar" class="navbar navbar-expand-lg col-12">
+  <div id="navbar" class="navbar navbar-expand-lg col-12">
    
-      <ul class="nav">
-        <li class="home">Home</li>
-        <li class="about">About</li>
-        <li class="work">Projects</li>
-        <li class="contact"><a href= "#contact" class="c-link">Contact</a></li>
+    <ul class="nav">
 
-      </ul>
-      
-   </div> 
+      <li><a href="../index.html" class="home">Home</a></li>
+      <li><a href="about.html" class="about">About</a></li>
+      <li><a href="projects.html" class="work">Projects</a></li>
 
-   <h1>About Me</h1>
+    </ul>
+    
+ </div> 
+   <h1 id="head">About Me</h1>
 
 
-   <div>
+   <div id="me">
 
     <div class="accordion" id="accordionExample">
-        <div class="card">
+        <div class="card-collapse">
           <div class="card-header" id="headingOne">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button id="ed" class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 Education
               </button>
             </h2>
           </div>
       
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-                
+            <img src="../assets/images/Ohio_State_University_College_of_Engineering_Logo.jpeg" alt="osu logo" id="osu"/>
+            <br>
+            <hr>
+              Full-Stack Flex Web Development Bootcamp Certificate <br>
+              The Ohio State University: College of Engineering    <br>                
+              July 2022 - January 2023
+              
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card-collapse">
           <div class="card-header" id="headingTwo">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button id="skills" class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Skills
               </button>
             </h2>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
-
+              
             </div>
           </div>
         </div>
@@ -64,17 +69,16 @@
    </div>
 
     <footer>
-      <a name="contact"></a>
        
     <ul class="footer">
-        <li><a class="link" href="eomadjambe@gmail.com">Email</a></li>
+        <li><a class="link" href="mailto:eomadjambe@gmail.com">Email</a></li>
         <li><a class="link" href="https://github.com/Edna1999">Github</a></li>
         <li><a class="link" href="https://www.linkedin.com/in/edna1999">LinkedIn</a></li>
     </ul>
 
 </footer>
 
-   <script src="./assets/script.js"></script>
+   <script src="../assets/script.js"></script>
 
 </body>
 </html>

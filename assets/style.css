@@ -1,14 +1,25 @@
 body{
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 #navbar{
-    background-color: rgb(164, 160, 160);
-    height: 60px;
+    background-color: rgb(36, 129, 252);
+    height: 100px;
+    margin-bottom: 50px;
 }
 
+#contact{
+    position: fixed;
+    margin-left: 1050px;
+}
 .head{
     margin-left: 500px;
+}
+
+.link{
+    display:flex;
+    flex-direction: column;
+    margin-right: 1100px;
 }
 
 .buttons{
@@ -52,26 +63,12 @@ h1{
     display: flex;
 }
 
-.footer{
-    list-style-type: none;
-     display: flex;
-}
-
-footer{
-    position: fixed;
-    background-color: rgb(164, 160, 160);
-    padding: 20px;
-    bottom: 0;
-    width: 100%;
-}
-
 .list{
     list-style-type: none;
 }
 
 .about, .work{
-    margin-top: 25px;
-    margin-left: 100px;
+    margin-left: 80px;
     padding-left: 50px;
     color: whitesmoke;
     border: 1px transparent;
@@ -79,15 +76,58 @@ footer{
 
 }
 
+#about1{
+margin-left: 300px;
+}
+
+
+#dropdownMenuButton{
+    margin-left: 150px;
+    border: 2px solid white;
+    background-color: rgb(36, 129, 252);
+    font-size: 20px;
+    padding:5px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.242);
+
+}
+
+#dropdownMenuButton:hover{
+    color: black;
+    border: 2px solid white;
+
+}
+
+
+.link{
+    line-height: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+    margin-left: -60px;
+    padding-left: 5px;
+  
+}
+
+#dropdownList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  
+   
+}
+
+
 .about{
-    padding-left: 900px;
+    padding-left: 700px;
+    
 }
 
 .home{
-    margin-top: 25px;
     color: whitesmoke;
     border: 1px transparent;
     font-size: 20px;
+    margin-left: 10px;
+
 }
 
 .home:hover{
@@ -112,11 +152,8 @@ footer{
 }
 
 .project{
-    /* border: 1px solid black; */
     padding: 20px;
     border-radius: 10px;
-    /* width: 700px; */
-    /* height: 400px; */
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -164,9 +201,10 @@ footer{
 }
 
 .card{
-    border: 1.5px solid rgb(64, 64, 64);
+    border: 2px solid rgb(64, 64, 64);
     border-radius: 10px;
     box-shadow: 3px 3px 3px 3px rgba(73, 72, 72, 0.605);
+
 }
 .card-title{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -179,4 +217,6 @@ footer{
     font-size: 20px;
 }
 
-
+#aFooter{
+    margin-top: 480px;;
+}

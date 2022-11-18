@@ -1,61 +1,14 @@
 body{
-    background-color: white;
+    background-image: url(../assets/images/OIP\ \(5\).jpeg);
+
 }
+
 
 #navbar{
-    background-color: rgb(36, 129, 252);
     height: 100px;
     margin-bottom: 50px;
-}
-
-#contact{
-    position: fixed;
-    margin-left: 1050px;
-}
-.head{
-    margin-left: 500px;
-}
-
-.link{
-    display:flex;
-    flex-direction: column;
-    margin-right: 1100px;
-}
-
-.buttons{
-    margin-left: 730px;
-    margin-top: 220px;
-    cursor:pointer;
-    color: whitesmoke;
-}
-
-#backBtn:hover{
-    font-size: large;
-}
-
-#forwardBtn:hover{
-    font-size: large;
-}
-
-#image{
-    width: 400px;
-    height: 400px;
-    margin-top: 10px;
-    border-radius: 200px;
-}
-
-h1{
-    margin-left: 60px;
-    font-family: cursive;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-.job{
-    margin-left: 150px;
-    font-family: cursive;
-    font-size: 20px;
-    margin-top: 10px;
+    border-bottom: 3px solid black;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.622);
 }
 
 .nav{
@@ -63,160 +16,127 @@ h1{
     display: flex;
 }
 
-.list{
-    list-style-type: none;
-}
-
 .about, .work{
     margin-left: 80px;
     padding-left: 50px;
-    color: whitesmoke;
+    color: rgb(238, 226, 211);
     border: 1px transparent;
     font-size: 20px;
-
 }
-
-#about1{
-margin-left: 300px;
-}
-
-
-#dropdownMenuButton{
-    margin-left: 150px;
-    border: 2px solid white;
-    background-color: rgb(36, 129, 252);
-    font-size: 20px;
-    padding:5px;
-    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.242);
-
-}
-
-#dropdownMenuButton:hover{
-    color: black;
-    border: 2px solid white;
-
-}
-
-
-.link{
-    line-height: 0;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1; 
-    margin-left: -60px;
-    padding-left: 5px;
-  
-}
-
-#dropdownList{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-  
-   
-}
-
 
 .about{
-    padding-left: 700px;
-    
+    padding-left: 600px;
 }
 
 .home{
-    color: whitesmoke;
+    color: rgb(238, 226, 211);
     border: 1px transparent;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 10px;
-
-}
-
-.home:hover{
-    text-decoration: none;
-    color: black;
-
-
 }
 
 .about:hover{
-    text-decoration: none;
-    color: black;
-
-
+    text-decoration: underline;
+    color: rgb(238, 226, 211);
 }
 
 .work:hover{
-    text-decoration: none;
-    color: black;
-
-
+    text-decoration: underline;
+    color: rgb(238, 226, 211);
 }
 
-.project{
+#about{
+    width: 1400px;
+    height: 600px;
+    margin-left: 20px;
+    background-color: rgb(238, 226, 211);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.777);
+}
+
+#image{
     padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    color: black;
-
+    height: 600px;
+    width: 550px;
+    box-shadow: 2px 2px 2px 2px rgba(33, 33, 33, 0.228);
 }
 
-.project:hover{
-    box-shadow: 3px 3px 3px 3px rgba(36, 36, 36, 0.462);
-    text-decoration: none;
-}
-
-.link{
-    padding: 40px;
-    margin-left: 200px;
-    color: whitesmoke;
-}
-
-.link:hover{
-    color: whitesmoke;
-
-}
-
-#osu{
-    width: 1000px;
-}
-
-#me{
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 20px;
-    box-shadow: 3px 3px 3px 3px grey;
+#text{
+    margin-left: 100px;
+    font-family: 'Sono', sans-serif;
+    font-size: 20px ;
 }
 
 #head{
-    margin-top: 20px;
     text-align: center;
+    font-family: 'Sono', sans-serif;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+footer{
+    border-top: 3px solid black;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.622);
 
 }
 
-#generator, #planner, #quiz, #team-board, #dashboard, #ph1, #ph2, #ph3, #ph4, #ph5, #ph6{
+.footer{
+    list-style-type: none;
+    display: flex;
+}
+
+.link{
+    color: rgb(238, 226, 211);
+    padding: 0px 200px;
+}
+
+.link:hover{
     color: black;
 }
 
-.card{
-    border: 2px solid rgb(64, 64, 64);
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(73, 72, 72, 0.605);
+li{
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
-.card-title{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-    text-decoration: underline;
+
+#project{
+    color: rgb(238, 226, 211);
     text-align: center;
-}
-.card-text{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
 }
 
-#aFooter{
-    margin-top: 480px;;
+/* .project{
+    display: block;
+    border: 3px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* width: 1200px; */
+    /* border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px; */
+   
+/* } */ */
+
+.body{
+    height: 300px;
+    background-color: rgb(238, 226, 211);
+
 }
+
+#work{
+    height: fit-content;
+    width: 500px;
+    display: inline-block;
+    margin: 50px;
+    margin-left: 130px;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+}
+
